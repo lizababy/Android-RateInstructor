@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center">
+  <!-- <ListView
+        android:id="@android:id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+-->
+
+
+    <TableRow>
+        <TextView
+            android:text = "@string/firstName"
+            android:textColor="@color/accent_material_dark"
+            android:textStyle="bold"
+            android:padding="10dip" />
+        <TextView
+            android:id="@+id/firstName"
+            android:layout_span="4"/>
+            
+    </TableRow>
+    <View
+        android:layout_height="2dip"
+        android:background="@color/primary_dark_material_light" />
+    
+    <TableRow>
+        <TextView
+            android:text = "@string/lastName"
+            android:textColor="@color/accent_material_dark"
+            android:textStyle="bold"
+            android:padding="10dip" />
+        <TextView
+            android:id="@+id/lastName"
+            android:layout_span="4"/>
+
+    </TableRow>
+    <View
+        android:layout_height="2dip"
+        android:background="@color/primary_dark_material_light" />
+
+    <TableRow>
+        <TextView
+            android:text = "@string/office"
+            android:textColor="@color/accent_material_dark"
+            android:textStyle="bold"
+            android:padding="10dip" />
+        <TextView
+            android:id="@+id/office"
+            android:layout_span="4"/>
+
+    </TableRow>
+    <View
+        android:layout_height="2dip"
+        android:background="@color/primary_dark_material_light" />
+
+    <TableRow>
+        <TextView
+            android:text = "@string/phone"
+            android:textColor="@color/accent_material_dark"
+            android:textStyle="bold"
+            android:padding="10dip" />
+        <TextView
+            android:id="@+id/phone"
+            android:layout_span="4"/>
+
+    </TableRow>
+    <View
+        android:layout_height="2dip"
+        android:background="@color/primary_dark_material_light" />
+
+    <TableRow>
+        <TextView
+            android:text = "@string/email"
+            android:textColor="@color/accent_material_dark"
+            android:textStyle="bold"
+            android:padding="10dip" />
+        <TextView
+            android:id="@+id/email"
+            android:padding="10dip"
+            android:layout_span="5"/>
+
+    </TableRow>
+    <View
+        android:layout_height="2dip"
+        android:background="@color/primary_dark_material_light" />
+    <TableRow>
+        <TextView
+            android:text = "@string/rating"
+            android:textColor="@color/accent_material_dark"
+            android:textStyle="bold"
+            android:padding="5dip" />
+        <Button
+            android:id="@+id/addRating"
+            android:background="@color/accent_material_dark"
+            android:layout_margin="10dp"
+            android:layout_span="4"
+            android:layout_weight="1"
+            android:text="@string/rateMe"
+            android:onClick="addRating"
+            android:textColor="#ff403c43"/>
+
+        </TableRow>
+    <TableRow>
+        <TextView
+            android:text = "@string/average"
+            android:layout_column="1"
+            android:padding="10dip"
+            android:textColor="@color/accent_material_light"/>
+
+        <TextView
+            android:id="@+id/average"
+            android:padding="10dip"/>
+
+        <TextView
+            android:text="@string/totalRatings"
+            android:padding="10dip"
+            android:textColor="@color/accent_material_light"/>
+        <TextView
+            android:id="@+id/totalRatings"
+            android:padding="10dip"/>
+    </TableRow>
+    <View
+        android:layout_height="2dip"
+        android:background="@color/primary_dark_material_light" />
+    <TableRow>
+
+        <TextView
+            android:text = "@string/Comments"
+            android:textColor="@color/accent_material_dark"
+            android:textStyle="bold"
+            android:padding="10dip" />
+
+        <Button android:id="@+id/addComment"
+                android:background="@color/accent_material_dark"
+                android:layout_span="4"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:text="@string/addComment"
+                android:textColor="#ff403c43"
+                android:onClick="addComment"/>
+    </TableRow>
+    <TableRow>
+
+        <TextView
+            android:id="@+id/comments_list"
+            android:layout_column="1"
+            android:layout_span="4"
+            android:layout_weight="1"
+            android:padding="10dip"/>
+
+
+    </TableRow>
+    <View
+        android:layout_height="2dip"
+        android:background="@color/primary_dark_material_light" />
+
+
+</TableLayout>

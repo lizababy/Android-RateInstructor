@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">RateInstructor</string>
+
+    <string name="title_activity_detail">DetailActivity</string>
+    <string name="firstName">firstName:</string>
+    <string name="lastName">lastName:</string>
+    <string name="office">office:</string>
+    <string name="phone">phone:</string>
+    <string name="email">email:</string>
+    <string name="rating">rating:</string>
+    <string name="average">average:</string>
+    <string name="totalRatings">total:</string>
+    <string name="action_settings">settings</string>
+    <string name="Comments">Comments:</string>
+    <string name="comment_text">Text</string>
+    <string name="rateMe">Click here to RateMe!</string>
+    <string name="addComment">Click here to CommentMe!</string>
+
+<!-- DialogFragment -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="alertMessg">Need Network Connection!\nConnect to network and try again!</string>
+    <string name="commentMeTitle">Do you want to add comment?</string>
+    <string name="rateMeTitle">Do you want to rate me?</string>
+    <string name="addCommentHint">comment here</string>
+    <string name="commentMeMessage">Add comment below. This will be posted immediately if network is connected.</string>
+    <string name="RateMeMessage">Give star ratings in ratingBar.This will be posted immediately if network is connected.</string>
+    <string name="dbReadTitle">Do you want to read from saved database in your phone?</string>
+    <string name="alertMessg2">This app requires network connection for full functionality.\n
+        Connect to network and restart the app to get updated details and posting comments/ratings!\n
+        If you don\'t wish to connect you can Proceed but could only read previously saved Instructor details!</string>
+    <string name="proceed">Proceed</string>
+    <string name="quit">Quit</string>
+    <string name="quiting">First Time User!!! \nConnect to network and restart the app!</string>
+    <string name="noUpdates">The details of this instructor is not updated in your phone. To see latest details connect to network!</string>
+    <string name="subTitle_main">List of Instuctors</string>
+    <string name="subTitle_details">Instructor Details</string>
+    <string name="rate_success">Rating Posted Successfully!</string>
+    <string name="action_refresh">Refresh</string>
+</resources>
