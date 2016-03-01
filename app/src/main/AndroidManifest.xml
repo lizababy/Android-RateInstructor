@@ -25,10 +25,10 @@
             android:name=".DetailActivity"
             android:label="@string/title_activity_detail"
             android:windowSoftInputMode="adjustPan"
-            android:parentActivityName="android.app.ListActivity" >
+            android:parentActivityName=".MainActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="android.app.ListActivity" />
+                android:value=".MainActivity" />
         </activity>
     </application>
 
